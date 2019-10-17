@@ -29,6 +29,7 @@ code {
     color: white;
     background: black;
     height:15vh;
+    text-transform: uppercase;
 }
 
 .Section{
@@ -37,9 +38,28 @@ code {
     display: flex;
     justify-content: center;
 }
+button{
+    margin: 2em 0em;
+    padding:  1em 1.8em;
+    font-weight: bolder;
+    border: none;
+    background: lightgreen;
+    color:white;
+}
+label{
+    display: inline;
+    margin: 2em 9.58em 0em 0em ;
+    color:gray;
+    font-weight: 600;
+    font-size:1.5em; 
+}
+input{
+    margin: 0em 2em 2em 0em ;
+    font-size: 1.2em;
+    padding: 0.5em;
+}
+
 form{
- display:flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: flex-start;
+    box-sizing: border-box;
+    height: 70vh;
 }
