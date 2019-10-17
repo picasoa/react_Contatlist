@@ -66,27 +66,47 @@ form{
 }
 
 table{
-/*    border: 1px solid black;*/
-    margin: 1em 0em;
-    width: 56%;
+/*    margin: 1em 0em;*/
+    width: 100%;
     border-collapse: collapse;
 }
 tr{
-    border: 3px solid white ;
-    border-radius: 10px;
-    background: rgba(215,215,215,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.5) ;
+}
+tr:nth-child(2n){
+      background: rgba(215,215,215,0.5);
+}
+th{
+    width: 20%;
 }
 td{
     font-size:1.3em;
-    width:50%;
-    padding:  5px;
-/*    border: 1px solid black ;*/
-    
+    width:20%;
+    padding:  0.5em 0em;
 }
 
 .name{
     color: black;
+    text-transform: capitalize;
 }
 .phone{
     color: gray;
 }
+.delBtn{
+    background: rgba(225,0,0,0.5);
+    color: black;
+    margin: 0px;
+}
+.gender{
+    text-align: center;
+}
+.age{
+    text-align: center;
+}
+.topic{
+    text-align: center;
+}
+.delete{
+    text-align: center;
+}
+

@@ -5,7 +5,7 @@ import Section from './Compo/Section';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header heading="phone directory"/>
       <Section/>
     </div>
   );
